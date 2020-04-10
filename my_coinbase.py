@@ -9,7 +9,7 @@ cambio_actual = client.get_spot_price(currency_pair = "BTC-EUR")
 cambio_actual = cambio_actual["amount"]
 posicion = cambio_actual.find(".")
 cambio_actual = cambio_actual[0:(posicion + 3)]
-print(cambio_actual, "EUR el BIT")
+print("EUR", cambio_actual, "el BIT")
 
 mi_cartera = client.get_account("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-print("Cartera en", mi_cartera["native_balance"])
+print(mi_cartera["native_balance"], "en la cartera")
