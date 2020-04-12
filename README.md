@@ -6,6 +6,6 @@ Sencilla aplicación para conocer el tipo de cambio y el dinero que tengo en cue
 pip install coinbase
 
 ### El formato de salida es el siguiente:
-EUR 4567.89 el BIT
+EUR 4567.89
 
-EUR 123.45 en tu cartera
+EUR 123.45 
